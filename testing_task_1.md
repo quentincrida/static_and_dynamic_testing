@@ -40,6 +40,6 @@ def self.cards_total(cards)
     return "You have a total of" + total
     #must return after the for loop end
   end
-  # return "You have a total of" + total
+  # return "You have a total of " + total.to_s
 end
 ```
